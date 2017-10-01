@@ -1,0 +1,110 @@
+.log {
+        background-image : url("background.png"); 
+		background-repeat: no-repeat;
+		background-position:center;
+        height : 100%;	
+    }
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+input[type=email] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=email]:focus {
+    border-color:#333;
+}
+
+input[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=password]:focus {
+    border-color:#333;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#888; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+#daf3 {
+width : 550px; 
+height : 300px;
+ border : 2px solid navy;
+border-radius: 25px;
+margin-top : 12%;
+}
+#haf2{
+font-family : Comic Sans MS;	
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+padding-left : 10px ;
+}
+#haf2:hover{
+	text-decoration : underline ;
+	
+}
+#tr1{
+	float:right;
+}
+#tr2{
+	float:clear;
+}
+#ip1{
+margin-bottom : 10px ;
+width : 100%;
+}
+#ip2{
+float : right;
+width : 100%;
+}
+#h1{	 
+	
+	font-family : Comic Sans MS;	
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	
+	}
+#h1:hover{
+	text-decoration : underline ;
+	
+}
+#pds{
+	margin-top : 20px;
+	padding-right : 20px;
+	float : right;
+	font-size : 25px;
+	
+}
+#p{
+	padding:5px 15px; 
+    background:#888; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	
+}	
+table {
+	font-weight : bold;
+	empty-cells: hide; 
+	
+}
+
+

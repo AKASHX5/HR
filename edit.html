@@ -1,0 +1,100 @@
+<html>
+<head>	
+	<title>Edit Data</title>
+</head>
+
+<body>
+	<a href="pd_home.php">Home</a>
+	<br/><br/>
+	
+	<form action='pd_edit.php' method='post' name='form1'>
+		
+			<table border="0">
+				<tr>
+					<td >First Name :</td>
+					<td><input type='text' name='fname' ></td>
+					<td >Last Name :</td>
+					<td><input type='text' name='lname' ></td>
+				</tr>
+
+				<tr >
+					<td >Father's Name :</td>
+					<td><input type='text' name='Faname' ></td>
+					<td >Mother's Name :</td>
+					<td><input type='text' name='Maname' ></td>
+				</tr>
+				
+				<tr >
+					<td >DOB :</td>
+					<td><input type='date' name='DOB' ></td>
+					<td >Blood group :</td>
+					<td><select name='blood' >
+								<option></option>
+								<option value='A+ve'/> A+ve
+								<option value='B+ve'/> B+ve
+								<option value='O+ve'/> O+ve
+								<option value='AB'/> AB
+								<option value='A-ve'/> A-ve
+								<option value='B-ve'/> B-ve
+								<option value='O-ve'/> O-ve
+					</select></td>
+				</tr>
+				
+				<tr >
+					<td >Sex :</td>
+					<td><select name='sex' >
+								<option></option>
+								<option value='Male'/> Male
+								<option value='Female'/> Female
+					</select></td>
+					<td >Marital Status :</td>
+					<td><select name='marital_status' >
+								<option></option>
+								<option value='Married'/> Married
+								<option value='Unmarried'/> Unmarried
+					</select></td>
+				</tr>
+
+				<tr >	
+					<td >Nationality :</td>
+					<td><input type='text' name='nationality' ></td>
+					<td >Religion :</td>
+					<td><select name='religion' >
+								<option></option>
+								<option value='Islam'/> Islam
+								<option value='Hindusism'/> Hindusism
+								<option value='Christanity'/> Christanity
+								<option value='Buddhism'/> Buddhism
+					</select></td>
+				</tr>
+
+				<tr >	
+					<td >Present Address :</td>
+					<td><textarea rows='5' cols='60' name='description'></textarea></td>
+				</tr>
+
+				<tr >
+					<td >Permanent Address :</td>
+					<td><textarea rows='5' cols='60' name='description_add' ></textarea></td>
+				</tr>
+
+				<tr >	
+					<td >Mobile No :</td>
+					<td><input type='text' name='mobile' ></td>
+				</tr>
+
+				<tr >	
+					<td >Personal Email Id :</td>
+					<td><input type='email' name='email_id' ></td>
+				</tr>
+				<tr>
+					<td><input type="hidden" name="id" ></td>
+					<td><input type="submit" name="edit" value="UPDATE"></td>
+				</tr>
+
+			</table>
+		
+		
+		</form>
+	</body>
+</html>
